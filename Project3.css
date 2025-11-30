@@ -45,8 +45,8 @@
 }
 
 .row input {
-  flex: 1 1 auto; /* shrink if needed */
-  min-width: 80px; /* ensure it doesn’t disappear */
+  flex: 1 1 auto; 
+  min-width: 80px; 
   border: none;
   outline: none;
   background: transparent;
@@ -55,10 +55,10 @@
 }
 
 .row button {
-  flex-shrink: 0; /* button never shrinks */
+  flex-shrink: 0; 
   border: none;
   outline: none;
-  padding: 12px 20px; /* smaller padding for small screens */
+  padding: 12px 20px; 
   background: #ff5945;
   color: #fff;
   font-size: 16px;
@@ -67,7 +67,6 @@
   white-space: nowrap;
 }
 
-/* Task list */
 ul li {
   list-style: none;
   font-size: 17px;
@@ -116,7 +115,7 @@ ul li span:hover {
   background-color: #edeef0;
 }
 
-/* -------------------- RESPONSIVE -------------------- */
+/* -------------------- RESPONSIVE -------------------- *
 
 /* Screens <= 475px */
 @media (max-width: 475px) {
@@ -152,7 +151,6 @@ ul li span:hover {
   }
 }
 
-/* Screens <= 380px */
 @media (max-width: 380px) {
   .row input {
     font-size: 13px;
@@ -223,3 +221,4 @@ ul li span:hover {
     font-size: 16px;
   }
 }
+
